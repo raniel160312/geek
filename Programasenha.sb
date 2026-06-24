@@ -1,0 +1,24 @@
+Sub mostrarhora
+  TextWindow.WriteLine(Clock.time)
+  TextWindow.WriteLine("Horário de brasília")
+endsub
+
+TextWindow.WriteLine("Bem - vindo ao programa!")
+mostrarhora()
+
+senha = "1234"
+Tentativas = 0
+
+While Digitado <> senha And  Tentativas <3
+  TextWindow.WriteLine("Digite a semha:")
+  Tentativas = Tentativas + 1
+  Digitado = TextWindow.Read()
+EndWhile
+
+If Tentativas >=3 Then
+  TextWindow.WriteLine("Excesso de Tentativas")
+  mostrarhora()
+  
+Else
+  TextWindow.WriteLine("Vocé acertou a senha!")
+  EndIf

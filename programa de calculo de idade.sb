@@ -1,0 +1,9 @@
+TextWindow.Write("Insira o ano do seu nascimento:")
+anonascimento = TextWindow.Read()
+
+textwindow.writeline("Insira o ano atual:")
+anoatual = TextWindow.Read()
+
+Idade = anoatual-anonascimento
+
+TextWindow.WriteLine("Você possui " + Idade + " anos de idade.")

@@ -1,0 +1,16 @@
+GraphicsWindow.KeyDown = AoPressionarUmaTecla
+
+Sub AoPressionarUmaTecla
+  Tecla = GraphicsWindow.LastKey
+  If Tecla = "A" Then
+    Sound.Play("C:\Users\geekc\Downloads\som1.mp3")
+  EndIf
+  
+  If Tecla = "B" Then
+    Sound.Play("C:\Users\geekc\Downloads\mlg.mp3")
+  EndIf
+  
+    If Tecla = "C" Then
+    Sound.Play("C:\Users\geekc\Downloads\mlg2.mp3")
+  EndIf
+  EndSub

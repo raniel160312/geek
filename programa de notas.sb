@@ -1,0 +1,20 @@
+TextWindow.WriteLine("Entre com a primeira nota do aluno:")
+PRIMEIRA= TextWindow.Read()
+TextWindow.WriteLine("Etre com a segunda nota do aluno:")
+SEGUNDA= TextWindow.Read()
+TextWindow.WriteLine("Entre com o número de faltas:")
+FALTAS= TextWindow.Read()
+
+SOMA = PRIMEIRA + SEGUNDA
+MEDIA = SOMA / 2
+
+If MEDIA >= 7 And FALTAS <= 25 then
+  TextWindow.WriteLine("A média do aluno foi: " + MEDIA)
+  TextWindow.WriteLine("O Número de faltas foi: " +FALTAS)
+  TextWindow.WriteLine("Aluno APROVADO!")
+Else
+   TextWindow.WriteLine("A média do aluno foi: " + MEDIA)
+   TextWindow.WriteLine("O Número de faltas foi: " +FALTAS)
+   TextWindow.WriteLine("Aluno REPROVADO!")
+   
+   EndIf
