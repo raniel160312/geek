@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <meta charset="uft-8">
+  <meta charset="utf-8">
   <title>ólio | josé eduardo | web designer</title>
   <link href="css/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="css/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family-source+sans+pro:300,400,500,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
   <link href="css/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
   <link href="css/stylish-portfolio.min.css" rel="stylesheet">
 </head>
 
 <body>
-  <nav class="navbar navbar-lg navbar-dark bg-dark fixed-top">
-    <div class="navbar-collapse d-flex justify-content-end">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top"></nav>
+    <div class="collapse navbar-collapse justify-content-end"></div>
       <ul class="navbar-nav">
         <li class="nav-item">
           <a class="nav-link" href="#inicio">home</a>
@@ -26,7 +26,7 @@
         <li class="nav-item">
           <a class="nav-link" href="#portfolio">Portfólio</a>
         </li>
-        <li class="nav=item">
+        <li class="nav-item">
           <a class="nav-link" href="#falecomigo">Fale comigo</a>
         </li>
       </ul>
@@ -34,8 +34,8 @@
   </nav>
 
   <header class="masthead d-flex" id="inicio">
-    <div claa="container text-right my-auto text-white">
-      <h1 claa="mb-1">J.E Web designer</h1>
+    <div class="container text-right my-auto text-white">
+      <h1 class="mb-1">J.E Web designer</h1>
       <h3 class="mb-5">
         <em>Desenvolvimento de sites corporativos e promocionais</em>
         </h3>
@@ -43,27 +43,28 @@
   </header>
 
   <section class="content-section bg-light" id="sobre">
-    <div class="container text-center">
+    <div class="container">
       <div class="row">
-        <div class="cpl-lg-10 mx-auto">
-          <h2>prazer, o meu nome e josé Eduardo!</h2>
-          <p class="lead mb-5">Sou um profissional em desenvolvimento web e estou no mercado há 10 anos. ao longo desse tempo, executei cente</p>
-          <a class="btn btn-info btn-xl js-scroll-trigger" href="http://linkedin.com/" target="blank">Ver perfil do linkedin</a>
+        <div class="col-lg-6">
+          <h2>prazer, o meu nome é josé Eduardo!</h2>
+          <p class="lead mb-5">Sou um profissional em desenvolvimento web e estou no mercado há 10 anos. ao longo desse tempo, executei centenas de projetos</p>
+          <a class="btn btn-info btn-xl js-scroll-trigger" href="https://www.linkedin.com/" target="_blank">Ver perfil do linkedin</a>
         </div>
       </div>
     </div>    
   </section>
 
-  <section id="servicos">
-    <div>
-      <div>
-        <h3>SERVIÇOS</h3>
-        <h2>Veja como eu posso ajudá-lo!</h2>
-      </div>
-      <div>
+<section id="servicos" class="content-section bg-primary text-white text-center">
+    <div class="container">
+        <div class="content-section-heading">
+            <h3>SERVIÇOS</h3>
+            <h2>Veja como eu posso ajudá-lo!</h2>
+        </div>
+
+        <div class="row">
         <div>
-          <span>
-           <i class="icon-screen-smartphone"></i>
+          <span class="service-icon rounded-circle mx-auto mb-3">
+              <i class="icon-like"></i>
           </span>  
           <h4>
             <strong>aplicativo</strong>
@@ -86,7 +87,7 @@
         <h4>
           <strong>Social media</strong>
         </h4>
-        <p class="text-faded mb-0">gestõa de rede sociais: facebook e instagram</p>
+        <p class="text-faded mb-0">gestão de redes sociais: facebook e instagram</p>
       </div>
       <div class="col-lg-3 col-md-6">
         <span class="service-icon rounded-circle mx-auto mb-3">
@@ -99,6 +100,38 @@
      </div>
    </div>
  </div>  
-</section>  
+</section>
+
+ <section class="content-section" id="portfolio">
+  <div class="container">
+    <div class="content-section-heading text-center">
+      <h3 class="text-secondary mb-0">portfólio</h3>
+      <h2 class="mb-5">veja os últimos projetos que realizei</h2>
+    </div>
+    <div class="row no-gutters">
+      <div class="col-lg-6">
+        <a class="portfólio-item" href="#">
+          <span class="caption">
+            <span class="caption-content">
+              <h2>Design</h2>
+              <p class="mb-0">Desenvolvimento da identidade visual para a empresa XPTO.</p>
+            </span>
+          </span>
+          <img class="img-fluid" src="img/identidadevisual.jpg" alt="">
+        </a>
+      </div>
+      <div class="col-lg-6">
+        <a href="#" class="portfolio-item">
+         <span class="caption">
+            <span class="caption">
+              <h2>social media</h2>
+              <p class="mb-0">criação gráfica para o lançamento da campanha "morango é + vida" da empresa XYZ.</p>
+            </span>
+          </span>
+          <img class="img-fluid" src="img/socialmedia.jpg" alt="">
+        </a>
+      </div>
+    </div>
+  </section>
 </body>
-</html>
+</html>                      
