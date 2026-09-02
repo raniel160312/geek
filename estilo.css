@@ -35,3 +35,15 @@ nav a{
     font-family:Trebuchet MS;
     text-decoration:none;
 }
+
+.container{
+    width: 960px;
+    margin: 0 auto;
+    height: 500px;
+}
+#caixalink{
+    margin-left: 400px;
+}
+.imglink{
+    width: 80px;
+}
