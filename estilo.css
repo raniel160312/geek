@@ -47,3 +47,37 @@ nav a{
 .imglink{
     width: 80px;
 }
+legend{
+  font-size: 32px;
+  padding: 15px 0;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #530d2e;
+}
+.linha input{
+  height: 40px;
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  width: 29.6%;
+  font-family: Trebuchet MS;
+ 
+}textarea{
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 10px 15px;
+    height: 200px;
+    margin-top: 5px;
+    width:930px;
+    font-family: Trebuchet MS;
+}
+button{
+  border-radius: 10px;
+  padding: 30px 25px;
+  background: #3af29d;
+  border:none;
+  color: #fff;
+  font-size: 18px:
+  text-transform: lowercase;
+}
