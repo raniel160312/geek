@@ -10,7 +10,7 @@ header{
     padding-left:0;
     padding-right:0;
     background:#f3f3f3;
-    border-bottom:20px solid #3af29d;
+    border-bottom: 20px solid #007b8b;
 }
 
 nav{
@@ -31,16 +31,13 @@ nav ul li{
 }
 
 nav a{
-    color:#530f2e;
+    color: rgb(212 179 230 / 1);
     font-family:Trebuchet MS;
     text-decoration:none;
 }
 nav a:hover{
-    color:#3af29d:
-}
-
-nav a:hover{
-    color:#3af29d;
+    color:#5f84f2:
+    
 }
 
 iframe{
