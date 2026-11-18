@@ -10,7 +10,7 @@
 </head>  
 <body>
 
-   <nav>
+   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
      <div class="container d-flex flex-column flex-md-row justify-contnt-between">
        <a class="py-2" href="#">
          <img src="logo.png" height="25px">     
@@ -51,6 +51,7 @@
        </div>  
      </div>
    </section>
+   <hr>
   
    <section id="preco">
      <div class="pricing-header text-center mt-5">
@@ -104,6 +105,7 @@
        </div>  
      </div>           
    </section>
+   <hr>
 
    <section id="contato"></section>
      <div class="container">
@@ -113,10 +115,34 @@
         <div class="col-md-6">
           <img src="imgfaleconosco.png" class="mt-5">
         </div>
-        <div class="col-md-6" style="padding:0 !important;"
-       </div>
+        <div class="col-md-6" style="padding:0 !important;">
+          <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Nome</label>
+              <input type="text" class="form-control" id="nome" name="nome" required>
+            </div>
+            <div class="form-group">
+              <label for="email">E-mail:</label>
+              <input type="email" class="form-control" id="email" name="email" required>
+            </div>  
+            <div class="form-group">
+              <label for="celular">celular:</label>
+              <input type="text" class="form-control" id="celular" name="celular" required>
+            </div>
+            <div class="form-group">
+              <label for="empresa">empresa:</label>
+              <input type="text" class="form-control" id="empresa" name="empresa" required>
+            </div>
+            <div class="form-group">
+              <label for="mensagem">escreva uma mensagem para a nossa equipe :</label>
+              <textarea class="form-control" id="mensagem" name="mensagem" rows="3" required></textarea>   
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Enviar</button>
+          </form>
+        </div>
       </div>
-     </section>
+    </div>
+  </section>
 
           
 </body>
